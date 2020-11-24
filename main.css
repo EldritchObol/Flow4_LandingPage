@@ -1,1 +1,66 @@
-main.css
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    background-color: red;
+}
+
+.main-body {
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-box {
+    padding: 0 20% 0 20%;
+}
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sidebar-left-7-11 {
+    display: block;
+    width: 50%;
+    height: 500px;
+    border-style: groove green;
+    margin: 0px;
+    top: 20px;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+
+.sidebar-right-verdensmål {
+    display: block;
+    width: 40%;
+    height: 500px;
+    margin: 0px;
+    background-color: aquamarine;
+    margin-top: 40px;
+}
+
+
+Footer {
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+    background-color: aquamarine;
+}
