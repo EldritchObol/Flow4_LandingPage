@@ -2,8 +2,10 @@
     box-sizing: border-box;
 }
 
+
 body {
-    margin: 0px;
+    margin: auto;
+
     
 }
 
@@ -17,24 +19,82 @@ header {
     margin: 0px;
     padding: 0px;
     top: 0px;
-    background-color: red;
-    display: block;
+    background-color: paleturquoise;
+    background-image: url(images/lyngbystorcenter_logo_transparent_Cropped.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .seven-eleven-logo{
+    display: block;
     padding-left: 40px;
     height: 100%;
     width: 25%;
     padding: 10px 20px 10px 160px;
 }
 
-header div img {
-    display: block;
+.seven-eleven-logo img {
     height: 100%;
-    border-radius: 30%;
+    border-radius: 25%;
+}
+
+.hdr_navbar {
+    display: block;
+    width: 20%;
+    height: 100%;
+    margin: 0px;
+    padding: 10px 20px 10px 20px;
+}
+
+.hdr_navbar ul li {
+    float: left;
+    border-right: 1px solid #bbbbbb;
 }
 
 
+
+.hdr_navbar ul li:last-child {
+    border-right: none;
+}
+
+.hdr_navbar ul li:first-child a {
+    
+    border-radius: 25px 0px 0px 25px ;
+}
+
+.hdr_navbar ul li:last-child a {
+    
+    border-radius: 0px 12px 12px 0px ;
+}
+
+
+.hdr_navbar ul li a{
+    display: block;
+    padding: 16px 32px;
+    background-color: rgb(201, 201, 201);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.hdr_navbar ul li a:hover:not(.active) {
+    background-color: black;
+    font-weight: bold;
+}
+
+.hdr_navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: lightgrey;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.active {
+    background-color: blue;
+}
 
 .main-body {
     padding-left: 18%;
