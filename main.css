@@ -43,7 +43,9 @@ header {
     width: 20%;
     height: 100%;
     margin: 0px;
-    padding: 10px 20px 10px 20px;
+    margin-left: 35%;
+    padding: 30px 20px 20px 20px;
+    
 }
 
 .hdr_navbar ul li {
@@ -64,7 +66,7 @@ header {
 
 .hdr_navbar ul li:last-child a {
     
-    border-radius: 0px 12px 12px 0px ;
+    border-radius: 0px 25px 25px 0px ;
 }
 
 
@@ -79,7 +81,7 @@ header {
 
 .hdr_navbar ul li a:hover:not(.active) {
     background-color: black;
-    font-weight: bold;
+    font-style: bolder;
 }
 
 .hdr_navbar ul {
@@ -94,6 +96,38 @@ header {
 
 .active {
     background-color: blue;
+}
+
+.search_bar {
+    display: block;
+    height: 100%;
+    width: 15%;
+    margin-left: 2%;
+    padding: 2px 1px 1px 2px ;
+    color: green;
+    border: solid  black;
+    border-radius: 20px 20px 20px 20px;
+    max-height: 50px;
+    margin-top: 30px ;
+    align-items: center;
+    
+
+}
+
+.search_bar img {
+    display: block;
+    height: 80%;
+    length: 80%;
+    margin: 0%;
+    padding: 4px 0px 2px 10px;
+}
+
+.search_bar p {
+    length: 50%;
+    display: block;
+    text-align: left;
+    margin: 0;
+    
 }
 
 .main-body {
