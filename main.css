@@ -50,7 +50,7 @@ header {
 
 .hdr_navbar ul li {
     float: left;
-    border-right: 1px solid #bbbbbb;
+    border-right: 1px solid #1f1f1f;
 }
 
 
@@ -73,10 +73,10 @@ header {
 .hdr_navbar ul li a{
     display: block;
     padding: 16px 24px;
-    background-color: rgb(201, 201, 201);
+    /* background-color: rgb(201, 201, 201); */
     text-decoration: none;
     text-align: center;
-    color: white;
+    color: rgb(37, 37, 37);
     font-size: 20px;
     
 }
