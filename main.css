@@ -83,6 +83,7 @@ header {
 
 .hdr_navbar ul li a:hover:not(.active) {
     background-color: black;
+    color: rgb(236, 236, 236);
     font-style: bolder;
 }
 
